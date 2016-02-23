@@ -1,0 +1,73 @@
+img.profile{
+	height:50px;
+}
+
+.street_address {
+	width: 160px;
+}
+.taskDis {
+   resize: none;
+}
+.label-table {
+	width: 100%;
+}
+
+.table {
+	height: 67px;
+	vertical-align: middle !important;
+}
+
+.td {
+	height: 67px;
+	vertical-align: middle !important;
+}
+
+.panel-black-9{
+
+}
+
+.panel-black-3{
+
+}
+#taskDis{
+resize: none;
+}
+.row {
+ background-color: White;
+}
+
+.location {
+	font-size:40px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.location_info {
+	display: block;
+	vertical-align: top;
+	width: 100%;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.location_info td {
+	min-width: 100px;
+}
+
+#title_sm {
+	display: none;
+}
+
+@media (max-width:550px) {
+	#title_lg {
+		display: none;
+	}
+	
+	#title_sm {
+		display: block;
+	}
+	
+	.location_info {
+		margin-left: 10px;
+	}
+}
